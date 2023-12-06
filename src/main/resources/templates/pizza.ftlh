@@ -1,9 +1,5 @@
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org"
-      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -13,7 +9,8 @@
     <title>Document</title>
 </head>
 <body>
-
+<h1>${pizza}</h1>
 </body>
 <script src="/webjars/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+
 </html>
